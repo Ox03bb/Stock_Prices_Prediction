@@ -19,7 +19,7 @@ The following technical indicators are used as features to predict the Adjusted 
 - **BB_middle**: Bollinger Bands Middle
 - **BB_lower**: Bollinger Bands Lower
 
-# Key Components
+## Key Components
 
 - **LSTM Layers**: Capture the temporal dependencies in stock price movements.
 - **Bidirectional LSTM**: Enhances learning by looking at the sequence in both forward and backward directions.
@@ -34,16 +34,16 @@ The model is trained using historical stock price data, with the previous price 
 
 The model achieves a very good accuracy in predicting the Adjusted Close stock prices, thanks to the combination of advanced neural network architectures and carefully selected technical indicators.
 
-# How to Run
+## How to Run
 
-### Clone the repository:
+#### Clone the repository:
 
 ```bash
 git clone https://github.com/Ox03bb/Stock_Prices_Prediction.git
 cd Stock-Prices-Prediction
 ```
 
-### Install the required dependencies:
+#### Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
